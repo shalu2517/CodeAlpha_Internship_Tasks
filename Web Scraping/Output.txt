@@ -1,0 +1,3 @@
+Data scraped and saved successfully!
+
+#The scraped data is saved automatically as a CSV file in the project folder.
