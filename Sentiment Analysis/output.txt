@@ -1,0 +1,34 @@
+Python 3.12.1 (tags/v3.12.1:2305ca5, Dec  7 2023, 22:03:25) [MSC v.1937 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+
+= RESTART: E:\Sentiment Analysis\Sentiment_Analysis.py
+[nltk_data] Downloading package stopwords to
+[nltk_data]     C:\Users\user\AppData\Roaming\nltk_data...
+[nltk_data]   Package stopwords is already up-to-date!
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 12000 entries, 0 to 11999
+Data columns (total 4 columns):
+ #   Column      Non-Null Count  Dtype 
+---  ------      --------------  ----- 
+ 0   Unnamed: 0  12000 non-null  int64 
+ 1   rating      12000 non-null  int64 
+ 2   reviewText  12000 non-null  object
+ 3   summary     11998 non-null  object
+dtypes: int64(2), object(2)
+memory usage: 375.1+ KB
+None
+Unnamed: 0    0
+rating        0
+reviewText    0
+summary       2
+dtype: int64
+sentiment
+Positive    10009
+Negative     1756
+Neutral       235
+Name: count, dtype: int64
+emotion
+Neutral    11135
+Joy          797
+Anger         68
+Name: count, dtype: int64
